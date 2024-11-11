@@ -22,7 +22,7 @@
     {
       "name": "Basic",
       "base": "examples/Basic",
-      "files": ["main.src"]
+      "files": ["main.cpp"]
     }
   ],
   "frameworks": "arduino",

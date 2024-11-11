@@ -1,0 +1,30 @@
+{
+  "name": "micro_rosso_mlx90640",
+  "version": "0.1.0",
+  "description": "MLX90640 module for micro_rosso",
+  "keywords": "ros, micro-ros, robot, micro_rosso, mlx90640",
+  "authors": [
+    {
+      "name": "Jorge Visca",
+      "email": "jvisca@fing.edu.uy",
+      "url": "https://www.fing.edu.uy/~jvisca/",
+      "maintainer": true
+    }
+  ],
+  "dependencies": {
+    "xopxe/micro_rosso": "^0.1.0",
+    "adafruit/Adafruit MLX90640": "^1.1.1",
+    "adafruit/Adafruit BusIO": "*",
+    "adafruit/Adafruit Unified Sensor": "*",
+    "SPI": "*"
+  },
+  "examples": [
+    {
+      "name": "Basic",
+      "base": "examples/Basic",
+      "files": "main.src"
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "espressif32"
+}

@@ -11,7 +11,7 @@ First, import the module into your project's `platformio.ini`:
 ```ini
 lib_deps =
     ...
-    https://github.com/xopxe/micro_rosso_mlx90640.git
+        "xopxe/micro_rosso_mlx90640": "^0.1.0"
 ```
 
 Then, in your `main.cpp`:

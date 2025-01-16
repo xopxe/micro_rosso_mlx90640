@@ -12,7 +12,7 @@
     }
   ],
   "dependencies": {
-    "xopxe/micro_rosso": "^0.1.0",
+    "xopxe/micro_rosso": "^0.2.0",
     "adafruit/Adafruit MLX90640": "^1.1.1",
     "adafruit/Adafruit BusIO": "*",
     "adafruit/Adafruit Unified Sensor": "*",

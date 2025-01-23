@@ -1,6 +1,6 @@
 {
   "name": "micro_rosso_mlx90640",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MLX90640 module for micro_rosso",
   "keywords": "ros, micro-ros, robot, micro_rosso, mlx90640",
   "authors": [
@@ -12,7 +12,7 @@
     }
   ],
   "dependencies": {
-    "xopxe/micro_rosso": "^0.2.0",
+    "xopxe/micro_rosso": "*",
     "adafruit/Adafruit MLX90640": "^1.1.1",
     "adafruit/Adafruit BusIO": "*",
     "adafruit/Adafruit Unified Sensor": "*",
